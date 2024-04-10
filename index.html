@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PrestaPlus | Software</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="dist/img/PrestaPlus.png" alt="AdminLTELogo" height="120" width="120">
+  </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">Inicio</a>
+      </li>      
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">          
+      
+      <li class="nav-item p-2">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+          <span>Fullscreen</span>
+        </a>
+      </li>
+      <li class="nav-item p-2">
+        <a href="login.html" class="nav-link">          
+          <i class="fas fa-sign-out-alt"> </i> 
+          <span>Salir</span>
+        </a>
+      </li>      
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-teal elevation-4">
+    <!-- Brand Logo -->
+    <a href="index.html" class="brand-link">
+      <img src="dist/img/PrestaPlusLogo.png" alt="Prana Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-strong">PrestaPlus</span> <span class="font-weight-light text-xs">| Software |</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/avatar3.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Administrador</a>
+        </div>
+      </div>      
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent nav-legacy" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-th-list"></i>
+              <p>
+                Menu
+                <i class="right fas fa-angle-left"></i>              
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Dashboard
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="productos.html" class="nav-link">
+                  <i class="nav-icon fas fa-store"></i>
+                  <p>
+                    Productos
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "categorias.html" class="nav-link">
+                  <i class="nav-icon fas fa-server"></i>
+                  <p>
+                    Categorías
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "proveedores.html" class="nav-link">                
+                  <i class="nav-icon fas fa-people-arrows"></i>
+                  <p>
+                    Proveedores
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "clientes.html" class="nav-link">              
+                  <i class="nav-icon fas fa-users"></i>
+                  <p>
+                    Clientes
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "ventas.html" class="nav-link">                
+                  <i class="nav-icon fas fa-shopping-basket"></i>
+                  <p>
+                    Ventas
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "reportes.html" class="nav-link">
+                  <i class="nav-icon fas fa-clipboard-list"></i>
+                  <p>
+                    Reportes
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              | Dashboard
+            </h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Dashboard</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-teal">
+              <div class="inner">
+                <h3>$ 35.000</h3> 
+
+                <p>Ventas del día</p>
+              </div>
+              <div class="icon">                
+                <i class="nav-icon fas fa-shopping-basket"></i>
+              </div>
+              <a href= "ventas.html" class="small-box-footer">Ventas <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-teal">
+              <div class="inner">
+                <h3>200</h3>
+
+                <p>Cantidad de Productos</p>
+              </div>
+              <div class="icon">
+                <i class="nav-icon fas fa-store"></i>
+              </div>
+              <a href= "productos.html" class="small-box-footer">Productos <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-teal">
+              <div class="inner">
+                <h3>5</h3>
+
+                <p>Cantidad de Proveedores</p>
+              </div>
+              <div class="icon">
+                <i class="nav-icon fas fa-people-arrows"></i>
+              </div>
+              <a href= "proveedores.html" class="small-box-footer">Proveedores <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-teal">
+              <div class="inner">
+                <h3>15</h3>
+
+                <p>Cantidad de Categorías</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href= "categorias.html" class="small-box-footer">Categorías <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+        <!-- /.row -->
+        <!-- Main row -->
+        <div class="row">
+          <section class="col-lg-12 connectedSortable">
+            <!-- solid sales graph -->
+            <div class="card">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-th mr-1"></i>
+                  Productos más vendidos
+                </h3>
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                  </button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                  </button>
+                  </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="chart" id="sales-chart" style="position: relative; height: 300px;">
+                      <canvas id="sales-chart-canvas" height="200" style="height: 200px;"></canvas>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="card">                      
+                      <div class="card-body p-0">
+                      <table class="table table-striped">
+                      <thead>
+                      <tr>
+                      <th style="width: 10px">#</th>
+                      <th>Producto</th>                      
+                      <th style="width: 60px">Stock</th>
+                      <th style="width: 60px">Precio</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                      <td>1.</td>
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="" class="img-circle img-size-32 mr-2">
+                        <a href="">Producto 1</a>
+                      </td>                      
+                      <td><span class="badge bg-danger">15</span></td>
+                      <td><span class="info-box-number">$ 4000</span></td>
+                      </tr>
+                      <tr>
+                      <td>2.</td>
+                      
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="" class="img-circle img-size-32 mr-2">
+                        <a href="">Producto 2</a>
+                      </td>                      
+                      <td><span class="badge bg-warning">50</span></td>
+                      <td>
+                        <span class="info-box-number">$ 1000</span>
+                      </td>
+
+                      </tr>
+                      <tr>
+                      <td>3.</td>
+                      
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="" class="img-circle img-size-32 mr-2">
+                        <a href="">Producto 3</a>
+                      </td>                      
+                      <td>
+                        <span class="badge bg-primary">3500</span>
+                      </td>
+                      <td>
+                        <span class="info-box-number">$ 5000</span>
+                      </td>
+                      </tr>
+                      </tbody>
+                      </table>
+                      </div>
+                      
+                      </div>
+                  </div>
+                </div>
+                
+              </div><!-- /.card-body -->
+
+            </div>
+            <!-- /.card -->
+          </section>
+          
+          <section class="col-lg-6 connectedSortable">
+                  <!-- Custom tabs (Charts with tabs)-->
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="fas fa-chart-pie mr-1"></i>
+                  Gráfico de Ventas 
+                </h3>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                  <!-- Morris chart - Sales -->
+                  <div class="chart" id="revenue-chart"
+                        style="position: relative; height: 300px;">
+                      <canvas id="revenue-chart-canvas" height="300" style="height: 300px;"></canvas>
+                    </div>
+              </div><!-- /.card-body -->
+            </div>            
+            <!-- /.card -->
+          </section>
+          
+          <section class="col-lg-6 connectedSortable">
+
+            <div class="card">
+              <div class="card-header">
+              <h3 class="card-title">Productos agregados recientemente</h3>
+              <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse">
+              <i class="fas fa-minus"></i>
+              </button>
+              <button type="button" class="btn btn-tool" data-card-widget="remove">
+              <i class="fas fa-times"></i>
+              </button>
+              </div>
+              </div>
+              
+              <div class="card-body p-0">
+              <ul class="products-list product-list-in-card pl-2 pr-2">
+              <li class="item">
+              <div class="product-img">
+              <img src="dist/img/default-150x150.png" alt="Product Image" class="img-size-50">
+              </div>
+              <div class="product-info">
+              <a href="javascript:void(0)" class="product-title">Producto 1
+              <span class="badge badge-warning float-right">$1800</span></a>              
+              </div>
+              </li>
+              
+              <li class="item">
+              <div class="product-img">
+              <img src="dist/img/default-150x150.png" alt="Product Image" class="img-size-50">
+              </div>
+              <div class="product-info">
+              <a href="javascript:void(0)" class="product-title">Producto 2
+              <span class="badge badge-info float-right">$700</span></a>              
+              </div>
+              </li>
+              
+              <li class="item">
+              <div class="product-img">
+              <img src="dist/img/default-150x150.png" alt="Product Image" class="img-size-50">
+              </div>
+              <div class="product-info">
+              <a href="javascript:void(0)" class="product-title">Producto 3
+              <span class="badge badge-danger float-right">
+              $350
+              </span>
+              </a>              
+              </div>
+              </li>
+              
+              <li class="item">
+              <div class="product-img">
+              <img src="dist/img/default-150x150.png" alt="Product Image" class="img-size-50">
+              </div>
+              <div class="product-info">
+              <a href="javascript:void(0)" class="product-title">Producto 4
+              <span class="badge badge-success float-right">$399</span></a>              
+              </div>
+              </li>
+              
+              </ul>
+              </div>
+              
+              <div class="card-footer text-center">
+                <a href="javascript:void(0)" class="text-md">Ver Todos los Productos</a>
+              </div>
+              
+              </div>
+
+          </section>
+          
+
+          
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer text-sm">
+    <strong>Copyright &copy; 2024 <a class="text-teal" href="#">Prana - Smoke & Grow Shop</a>.</strong> Powered by Arroyo Walter.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 1.0.0
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  //$.widget.bridge('uibutton', $.ui.button)
+  
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+</body>
+</html>

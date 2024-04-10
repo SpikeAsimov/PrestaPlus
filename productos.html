@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prana | Smoke & Grow Shop</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="dist/img/LogoPranaWeb.png" alt="AdminLTELogo" height="120" width="120">
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">Inicio</a>
+      </li>      
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">          
+      
+      <li class="nav-item p-2">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+          <span>Fullscreen</span>
+        </a>
+      </li>
+      <li class="nav-item p-2">
+        <a href="login.html" class="nav-link">          
+          <i class="fas fa-sign-out-alt"> </i> 
+          <span>Salir</span>
+        </a>
+      </li>      
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-teal elevation-4">
+    <!-- Brand Logo -->
+    <a href="index.html" class="brand-link">
+      <img src="dist/img/LogoPranaWeb.png" alt="Prana Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-strong">PRANA</span> <span class="font-weight-light text-xs">| Smoke & Grow Shop |</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/AvatarGrow.jpeg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Administrador</a>
+        </div>
+      </div>      
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent nav-legacy" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-th-list"></i>
+              <p>
+                Menu
+                <i class="right fas fa-angle-left"></i>              
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Dashboard
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="productos.html" class="nav-link">
+                  <i class="nav-icon fas fa-store"></i>
+                  <p>
+                    Productos
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "categorias.html" class="nav-link">
+                  <i class="nav-icon fas fa-server"></i>
+                  <p>
+                    Categorías
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "proveedores.html" class="nav-link">                
+                  <i class="nav-icon fas fa-people-arrows"></i>
+                  <p>
+                    Proveedores
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "clientes.html" class="nav-link">              
+                  <i class="nav-icon fas fa-users"></i>
+                  <p>
+                    Clientes
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "ventas.html" class="nav-link">                
+                  <i class="nav-icon fas fa-shopping-basket"></i>
+                  <p>
+                    Ventas
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href= "reportes.html" class="nav-link">
+                  <i class="nav-icon fas fa-clipboard-list"></i>
+                  <p>
+                    Reportes
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">
+              <i class="nav-icon fas fa-store"></i>
+              | Productos
+            </h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Productos</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <!-- Main row -->
+        <div class="row">
+          <section class="col-lg-12 connectedSortable">
+            <!-- solid sales graph -->
+            <div class="card">              
+              <div class="card-body">
+                <div class="row">                  
+                  <div class="col-12">                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-teal btn-lg mb-3" data-toggle="modal" data-target="#exampleModal">
+                      <i class="fas fa-plus-circle"></i>
+                      Agregar Nuevo Producto
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              <i class="fas fa-plus-circle"></i>
+                              Agregar Nuevo Producto
+                            </h5>
+                          </div>
+                          <div class="modal-body">
+                            
+                          <div class="container mt-auto">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <form>
+                                  <div class="form-group">
+                                    <label for="imagen">Subir Imagen del producto</label>
+                                    <div class="input-group">                                      
+                                      <div class="row">
+                                        <div class="col-auto">
+                                          <img src="dist/img/LogoPranaWeb.png" class="img-thumbnail previsualizar" width="100px">
+                                        </div>
+                                        <div class="col-4">
+                                          <input type="file" class="nuevaImagen" name="nuevaImagen">
+                                          <p class="help-block">Peso máximo de la imagen 2MB</p>
+                                        </div>
+                                      </div>                                      
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="codigo">Código</label>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" id="codigo" placeholder="Código del producto" aria-describedby="codigoIcon">
+                                      <div class="input-group-append">
+                                        <span class="input-group-text" id="codigoIcon"><i class="fas fa-barcode"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="descripcion">Descripción</label>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" id="descripcion" placeholder="Descripción del producto" aria-describedby="descripcionIcon">
+                                      <div class="input-group-append">
+                                        <span class="input-group-text" id="descripcionIcon"><i class="fas fa-align-left"></i></span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <div class="col-6">
+                                      <label for="categoria">Categoría</label>
+                                      <div class="input-group">                                        
+                                        <select class="form-control input-lg" id="categoria" name="nuevaCategoria" required="" aria-describedby="categoriaIcon">                  
+                                          <option value="">Selecionar categoría</option>                      
+                                          <option value="1">Categoría 1</option>
+                                          <option value="2">Categoría 2</option>
+                                          <option value="3">Categoría 3</option>
+                                          <option value="4">Categoría 4</option>
+                                          <option value="5">Categoría 5</option>
+                                          <option value="6">Categoría 6</option>  
+                                        </select>
+                                        <div class="input-group-append">
+                                          <span class="input-group-text" id="categoriaIcon"><i class="fas fa-tags"></i></span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="form-group">
+                                        <label for="proveedor">Proveedor</label>
+                                        <div class="input-group">
+                                          <select class="form-control input-lg" id="proveedor" name="nuevoProveedor" required="" aria-describedby="proveedorIcon">                  
+                                            <option value="">Seleccionar proveedor</option>                      
+                                            <option value="1">Proveedor 1</option>
+                                            <option value="2">Proveedor 2</option>
+                                            <option value="3">Proveedor 3</option>
+                                            <option value="4">Proveedor 4</option>
+                                            <option value="5">Proveedor 5</option>
+                                            <option value="6">Proveedor 6</option>  
+                                          </select>
+                                          <div class="input-group-append">
+                                            <span class="input-group-text" id="proveedorIcon"><i class="fas fa-truck"></i></span>
+                                          </div>
+                                        </div>
+                                      </div>                                      
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <div class="col-4">
+                                      <label for="precioCompra">Precio de Compra</label>
+                                      <div class="input-group">
+                                        <input type="number" step="0.01" class="form-control" id="precioCompra" placeholder="Ingrese Precio" aria-describedby="precioCompraIcon">
+                                        <div class="input-group-append">
+                                          <span class="input-group-text" id="precioCompraIcon"><i class="fas fa-money-bill"></i></span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-4">
+                                      <label for="precioVenta">Precio de Venta</label>
+                                      <div class="col-">                                        
+                                        <div class="form-group row">
+                                          <div class="input-group">
+                                            <input type="number" step="0.01" class="form-control" id="precioVenta" placeholder="Ingrese Precio" aria-describedby="precioVentaIcon">
+                                            <div class="input-group-append">
+                                              <span class="input-group-text" id="precioVentaIcon"><i class="fas fa-dollar-sign"></i></span>
+                                            </div>
+                                          </div>                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-4">
+                                      <div class="form-group">
+                                        <label for="stock">Stock</label>
+                                        <div class="input-group">
+                                          <input type="number" class="form-control" id="stock" placeholder="Stock del producto" aria-describedby="stockIcon">
+                                          <div class="input-group-append">
+                                            <span class="input-group-text" id="stockIcon"><i class="fas fa-cubes"></i></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>                                  
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn bg-teal">Guardar Producto</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">                      
+                      <div class="card-body p-0">
+                      <table class="table table-striped">
+                      <thead>
+                      <tr>
+                      <th style="width: 10px">#</th>
+                      <th style="width: 20px">Imágen</th>
+                      <th style="width: 20px">Código</th>
+                      <th style="width: 120px">Descripción</th>
+                      <th style="width: 20px">Categoría</th>
+                      <th style="width: 20px">Stock</th>
+                      <th style="width: 20px">Precio de Compra</th>
+                      <th style="width: 20px">Precio de Venta</th>
+                      <th style="width: 40px">Agregado</th>
+                      <th style="width: 40px">Acciones</th>
+
+                      </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1.</td>
+                          <td><img src="dist/img/default-150x150.png" alt="" class="img-circle img-size-32 mr-2"></td>
+                          <td>299009</td>
+                          <td>
+                            <a href="">Producto 1 </a>
+                          </td>
+                          <td>Categoría 1</td>
+                          <td><span class="badge bg-danger">5</span></td>
+                          <td><span class="info-box-number">$ 4000</span></td>
+                          <td><span class="info-box-number">$ 8000</span></td>
+                          <td>2024-02-02 19:00:00</td>
+                          <td>
+                            <div class="btn-group">
+                              <button class="btn btn-warning m-1"><i class="fas fa-edit"></i> </button>
+                              <button class="btn btn-danger m-1"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2.</td>
+                          <td><img src="dist/img/default-150x150.png" alt="" class="img-circle img-size-32 mr-2"></td>
+                          <td>299009</td>
+                          <td>
+                            <a href="">Producto 2</a>
+                          </td>
+                          <td>Categoría 2</td>
+                          <td><span class="badge bg-warning">500</span></td>
+                          <td><span class="info-box-number">$ 5000</span></td>
+                          <td><span class="info-box-number">$ 7000</span></td>
+                          <td>2024-02-02 14:00:00</td>
+                          <td>
+                            <div class="btn-group">
+                              <button class="btn btn-warning m-1"><i class="fas fa-edit"></i> </button>
+                              <button class="btn btn-danger m-1"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3.</td>
+                          <td><img src="dist/img/default-150x150.png" alt="" class="img-circle img-size-32 mr-2"></td>
+                          <td>299009</td>
+                          <td>
+                            <a href="">Producto 3</a>
+                          </td>
+                          <td>Categoría 2</td>
+                          <td><span class="badge bg-teal">1500</span></td>
+                          <td><span class="info-box-number">$ 4000</span></td>
+                          <td><span class="info-box-number">$ 8000</span></td>
+                          <td>2024-02-02 19:00:00</td>
+                          <td>
+                            <div class="btn-group">
+                              <button class="btn btn-warning m-1"><i class="fas fa-edit"></i> </button>
+                              <button class="btn btn-danger m-1"><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                          </td>
+                        </tr>                      
+                      </tbody>
+                      </table>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>                
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </section>          
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer text-sm">
+    <strong>Copyright &copy; 2024 <a class="text-teal" href="#">Prana - Smoke & Grow Shop</a>.</strong> Powered by Arroyo Walter.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 1.0.0
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  //$.widget.bridge('uibutton', $.ui.button)
+  
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+</body>
+</html>
